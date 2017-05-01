@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ScanditBarcodeScanner/ScanditBarcodeScanner.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ScanditBarcodeScanner/ScanditBarcodeScanner.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<SBSScanDelegate, SBSOverlayControllerDidCancelDelegate>
 
 
 @end

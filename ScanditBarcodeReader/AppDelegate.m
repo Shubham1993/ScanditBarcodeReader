@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *appKey = @"Aee6dlgdQiDbIHvhaAnUbu49buFLCauPrAURsixWpyCaXNy2lG9v7SBWkxgMQ2ko52ITMwdeLdg5Vp+VeweHMEBPKaH2YnGkDwLDXE9HWF28U8fo4mw/GPVHrlNXQYr3mV/pgvpNLKV/Pt/PucAn1BhoeDQo2qmjpRzUdlRpNFk1VP2DRV56u5rAHvCxmALDFYi79qjSUbqc1QXLz97MVQCME+HM2YQEtMbgIPMn4GzqT/QwewTTsgmkG76CqBqkAauJDdcyU+sjTNN2XalPmm/J+nNf4hH1YKncCZyLSeoSJi57M6jaIbObSq977X8bAfFNPeoAH94ZLR1gJYpstxNRT4U2+50SPdDOUWzvfvvqDxUSShP9a1wdMjQ1Z/KgYPyXokIFWPcGn14J74lw6k6v8b7voigqWst70hI0mQwFujJZhShlo/JuhpQFKcmqb2qBx/Mtz8SE5JyEll22luoEGJn5x5ORyinWx3vTfCr/0cEK+8eMd5IBVnJjqhLp0cf78vNAkzSPKjaz9JxMHXHZj6hdMtDOBlMeZKaO+XFaqdD+Y/5jpIKB0swHZl3ZnQXvBy699TzDmbNT9ZL00aroocOgf67K+cXWGnfavx8nfAO3MXZDWrZrHVe3ONZ/a2i9eU9Rkqr5flGrXMH/O7Wz32csRXPSBaRCZ7rUYdf5/m21vb2sFWSS9463jJr2W23h+tcHrHb3kY6prRzjIuzvZiwRWap5MY48c4mQykX+bCDU+eKvTdPxsRes/+CfExm59xAN+xW4DA0G/1uKlWefLx0ZXRYrRFjDS71iszQVFN1FG8Fq5hPK/Uo=";
+     [SBSLicense setAppKey:appKey];
     return YES;
 }
 
