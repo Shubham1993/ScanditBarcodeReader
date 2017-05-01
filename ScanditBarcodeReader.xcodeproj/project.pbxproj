@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511B30381EB70DBD009D593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 511B30371EB70DBD009D593E /* main.m */; };
+		511B303B1EB70DBD009D593E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 511B303A1EB70DBD009D593E /* AppDelegate.m */; };
+		511B303E1EB70DBD009D593E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511B303D1EB70DBD009D593E /* ViewController.m */; };
+		511B30411EB70DBD009D593E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511B303F1EB70DBD009D593E /* Main.storyboard */; };
+		511B30431EB70DBD009D593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511B30421EB70DBD009D593E /* Assets.xcassets */; };
+		511B30461EB70DBD009D593E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511B30441EB70DBD009D593E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		511B30331EB70DBD009D593E /* ScanditBarcodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanditBarcodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		511B30371EB70DBD009D593E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		511B30391EB70DBD009D593E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		511B303A1EB70DBD009D593E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		511B303C1EB70DBD009D593E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		511B303D1EB70DBD009D593E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		511B30401EB70DBD009D593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		511B30421EB70DBD009D593E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		511B30451EB70DBD009D593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		511B30471EB70DBD009D593E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511B30301EB70DBD009D593E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		511B302A1EB70DBD009D593E = {
+			isa = PBXGroup;
+			children = (
+				511B30351EB70DBD009D593E /* ScanditBarcodeReader */,
+				511B30341EB70DBD009D593E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		511B30341EB70DBD009D593E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511B30331EB70DBD009D593E /* ScanditBarcodeReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		511B30351EB70DBD009D593E /* ScanditBarcodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				511B30391EB70DBD009D593E /* AppDelegate.h */,
+				511B303A1EB70DBD009D593E /* AppDelegate.m */,
+				511B303C1EB70DBD009D593E /* ViewController.h */,
+				511B303D1EB70DBD009D593E /* ViewController.m */,
+				511B303F1EB70DBD009D593E /* Main.storyboard */,
+				511B30421EB70DBD009D593E /* Assets.xcassets */,
+				511B30441EB70DBD009D593E /* LaunchScreen.storyboard */,
+				511B30471EB70DBD009D593E /* Info.plist */,
+				511B30361EB70DBD009D593E /* Supporting Files */,
+			);
+			path = ScanditBarcodeReader;
+			sourceTree = "<group>";
+		};
+		511B30361EB70DBD009D593E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				511B30371EB70DBD009D593E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511B30321EB70DBD009D593E /* ScanditBarcodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511B304A1EB70DBD009D593E /* Build configuration list for PBXNativeTarget "ScanditBarcodeReader" */;
+			buildPhases = (
+				511B302F1EB70DBD009D593E /* Sources */,
+				511B30301EB70DBD009D593E /* Frameworks */,
+				511B30311EB70DBD009D593E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanditBarcodeReader;
+			productName = ScanditBarcodeReader;
+			productReference = 511B30331EB70DBD009D593E /* ScanditBarcodeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		511B302B1EB70DBD009D593E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Shubham;
+				TargetAttributes = {
+					511B30321EB70DBD009D593E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 511B302E1EB70DBD009D593E /* Build configuration list for PBXProject "ScanditBarcodeReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 511B302A1EB70DBD009D593E;
+			productRefGroup = 511B30341EB70DBD009D593E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511B30321EB70DBD009D593E /* ScanditBarcodeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		511B30311EB70DBD009D593E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511B30461EB70DBD009D593E /* LaunchScreen.storyboard in Resources */,
+				511B30431EB70DBD009D593E /* Assets.xcassets in Resources */,
+				511B30411EB70DBD009D593E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		511B302F1EB70DBD009D593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511B303E1EB70DBD009D593E /* ViewController.m in Sources */,
+				511B303B1EB70DBD009D593E /* AppDelegate.m in Sources */,
+				511B30381EB70DBD009D593E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		511B303F1EB70DBD009D593E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511B30401EB70DBD009D593E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		511B30441EB70DBD009D593E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511B30451EB70DBD009D593E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		511B30481EB70DBD009D593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		511B30491EB70DBD009D593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		511B304B1EB70DBD009D593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScanditBarcodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.ScanditBarcodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		511B304C1EB70DBD009D593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScanditBarcodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.ScanditBarcodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		511B302E1EB70DBD009D593E /* Build configuration list for PBXProject "ScanditBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511B30481EB70DBD009D593E /* Debug */,
+				511B30491EB70DBD009D593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511B304A1EB70DBD009D593E /* Build configuration list for PBXNativeTarget "ScanditBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511B304B1EB70DBD009D593E /* Debug */,
+				511B304C1EB70DBD009D593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 511B302B1EB70DBD009D593E /* Project object */;
+}
